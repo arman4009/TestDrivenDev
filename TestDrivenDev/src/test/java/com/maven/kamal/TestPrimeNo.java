@@ -23,6 +23,13 @@ public class TestPrimeNo {
 		assertEquals(true, PrimeNo.checkPrime(3));
 	
 	}
+	
+	@Test
+	public void testPrimeNo() {
+		assertEquals(true, PrimeNo.checkPrime(6));
+	
+	}
+	
 	//@Before
 	@Test
 	public void testEven() {
