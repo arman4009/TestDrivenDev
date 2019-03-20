@@ -29,6 +29,11 @@ public class TestPrimeNo {
 		assertEquals(true, PrimeNo.checkPrime(6));
 	
 	}
+    @Test
+    public void testPrimeNo1() {
+        assertEquals(true, PrimeNo.checkPrime(8));
+        
+    }
 	
 	//@Before
 	@Test
